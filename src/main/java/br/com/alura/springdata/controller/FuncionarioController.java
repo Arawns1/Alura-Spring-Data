@@ -38,6 +38,11 @@ public class FuncionarioController {
         return ResponseEntity.ok(service.findAllByNome(nome));
     }
 
+    @GetMapping("/projecao")
+    public ResponseEntity findFuncionarioByIdNomeSalario(){
+        return ResponseEntity.ok().body(service.findFuncionarioByIdNomeSalario());
+    }
+
     @PostMapping
     @Transactional
     public ResponseEntity<FuncionarioDTO> saveFuncionario(@RequestBody @Valid SaveFuncionarioDTO dados, UriComponentsBuilder uriBuilder){

@@ -4,6 +4,7 @@ import br.com.alura.springdata.domain.Cargo;
 import br.com.alura.springdata.domain.Funcionario;
 import br.com.alura.springdata.dto.FuncionarioDTO;
 import br.com.alura.springdata.dto.SaveFuncionarioDTO;
+import br.com.alura.springdata.projections.FuncionarioProjection;
 import br.com.alura.springdata.repository.CargoRepository;
 import br.com.alura.springdata.repository.FuncionarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,9 @@ public class FuncionarioService {
     @Autowired
     private CargoRepository cargoRepository;
 
+    public List<FuncionarioProjection> findFuncionarioByIdNomeSalario(){
+        return repository.findFuncionarioSalario();
+    }
 
     public List<FuncionarioDTO> findAllByNome(String nome){
         return repository.findAllByNomeContainsAndStatusTrue(nome).stream().map(FuncionarioDTO::new).toList();
