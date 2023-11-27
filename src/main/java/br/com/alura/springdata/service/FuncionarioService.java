@@ -21,6 +21,11 @@ public class FuncionarioService {
     @Autowired
     private CargoRepository cargoRepository;
 
+
+    public List<FuncionarioDTO> findAllByNome(String nome){
+        return repository.findAllByNomeContainsAndStatusTrue(nome).stream().map(FuncionarioDTO::new).toList();
+    }
+
     public List<FuncionarioDTO> findAllFuncionario() {
         return repository.findAllByStatusTrue().stream().map(FuncionarioDTO::new).toList();
     }
