@@ -11,4 +11,5 @@ import java.util.UUID;
 @Repository
 public interface FuncionarioRepository extends JpaRepository<Funcionario, UUID> {
     List<Funcionario> findAllByStatusTrue();
+    List<Funcionario> findAllByNomeContainsAndStatusTrue(String nome);
 }

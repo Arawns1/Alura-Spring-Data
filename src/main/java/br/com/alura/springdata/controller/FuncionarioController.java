@@ -31,6 +31,13 @@ public class FuncionarioController {
         return ResponseEntity.ok(service.findFuncionarioById(id));
     }
 
+    @GetMapping("/search")
+    public ResponseEntity<List<FuncionarioDTO>> findAllByNome(@RequestParam(value = "nome",
+                                                                            defaultValue = "",
+                                                                            required=false) String nome){
+        return ResponseEntity.ok(service.findAllByNome(nome));
+    }
+
     @PostMapping
     @Transactional
     public ResponseEntity<FuncionarioDTO> saveFuncionario(@RequestBody @Valid SaveFuncionarioDTO dados, UriComponentsBuilder uriBuilder){
