@@ -18,6 +18,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
+@ToString
 public class Funcionario {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
