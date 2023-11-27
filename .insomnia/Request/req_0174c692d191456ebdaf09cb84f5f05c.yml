@@ -1,0 +1,23 @@
+_id: req_0174c692d191456ebdaf09cb84f5f05c
+type: Request
+parentId: fld_6ae94fd61c414faca6f3f3cd862c007d
+modified: 1701095816247
+created: 1701093123209
+url: "{{ _.baseUrl }}/cargos/21ceda07-c16a-4581-86fb-84e0739fe9d3"
+name: Listar Cargos Por Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107655
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

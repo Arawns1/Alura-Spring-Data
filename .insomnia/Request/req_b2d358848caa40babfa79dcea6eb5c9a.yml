@@ -1,0 +1,32 @@
+_id: req_b2d358848caa40babfa79dcea6eb5c9a
+type: Request
+parentId: fld_d9c3c2621df34c6ca82e5f05242b9e60
+modified: 1701095599407
+created: 1701094560536
+url: "{{ _.baseUrl }}/unidades"
+name: Atualizar unidades
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "82d9ed98-da7c-4f5a-869a-29d144d19478",
+    	"descricao": "Loja 01",
+    	"endereco": "Rua XPTO, 811"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107580
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

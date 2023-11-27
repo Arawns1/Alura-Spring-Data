@@ -1,0 +1,31 @@
+_id: req_ca2e24e709354c8fb82df0db86349cc0
+type: Request
+parentId: fld_d9c3c2621df34c6ca82e5f05242b9e60
+modified: 1701095431950
+created: 1701094560547
+url: "{{ _.baseUrl }}/unidades"
+name: Salvar unidades
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"descricao": "Loja 01",
+    	"endereco": "Rua XPTO, 812"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

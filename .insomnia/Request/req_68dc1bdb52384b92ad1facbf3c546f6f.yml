@@ -1,0 +1,27 @@
+_id: req_68dc1bdb52384b92ad1facbf3c546f6f
+type: Request
+parentId: fld_bb49bd0a0d3743cf87cfd48d9240d843
+modified: 1701100076099
+created: 1701099480535
+url: "{{ _.baseUrl }}/funcionarios/search"
+name: Busca de funcionário por nome
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0152018c573944b9a5df5d886197fa51
+    name: nome
+    value: ""
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701099480535
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

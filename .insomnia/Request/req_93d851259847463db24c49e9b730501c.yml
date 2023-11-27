@@ -1,0 +1,30 @@
+_id: req_93d851259847463db24c49e9b730501c
+type: Request
+parentId: fld_6ae94fd61c414faca6f3f3cd862c007d
+modified: 1701095837148
+created: 1701093123224
+url: "{{ _.baseUrl }}/cargos"
+name: Salvar Cargos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"descricao": "DESENVOLVIMENTO DE APPS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

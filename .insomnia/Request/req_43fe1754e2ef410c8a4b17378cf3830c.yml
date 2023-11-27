@@ -1,0 +1,23 @@
+_id: req_43fe1754e2ef410c8a4b17378cf3830c
+type: Request
+parentId: fld_bb49bd0a0d3743cf87cfd48d9240d843
+modified: 1701098825293
+created: 1701088826300
+url: "{{ _.baseUrl }}/funcionarios/46b1e7d5-e38c-45ad-9967-80383ac165eb"
+name: Deletar Funcionario
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107567.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

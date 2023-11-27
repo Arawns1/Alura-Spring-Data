@@ -1,0 +1,23 @@
+_id: req_1d8614190877487fb8162a63a1e84765
+type: Request
+parentId: fld_6ae94fd61c414faca6f3f3cd862c007d
+modified: 1701098044751
+created: 1701093123203
+url: "{{ _.baseUrl }}/cargos/87b5d3a9-4659-446b-9493-0f384cb480f5"
+name: Deletar Cargos
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107567.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_09f96b21834544498f0ec306d409a406
+type: Request
+parentId: fld_6ae94fd61c414faca6f3f3cd862c007d
+modified: 1701095888363
+created: 1701093123218
+url: "{{ _.baseUrl }}/cargos"
+name: Atualizar Cargos
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "710bab69-b918-450b-b96f-0c2bc995fe84",
+    	"descricao": "DESENVOLVIMENTO DE APLICAÇÕES"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107580
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

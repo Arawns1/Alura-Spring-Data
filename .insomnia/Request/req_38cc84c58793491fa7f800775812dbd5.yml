@@ -1,0 +1,37 @@
+_id: req_38cc84c58793491fa7f800775812dbd5
+type: Request
+parentId: fld_bb49bd0a0d3743cf87cfd48d9240d843
+modified: 1701098786711
+created: 1701088883719
+url: "{{ _.baseUrl }}/funcionarios"
+name: Atualizar Funcionario
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"id": "46b1e7d5-e38c-45ad-9967-80383ac165eb",
+    		"nome": "Gabriel",
+    		"CPF": "123456789",
+    		"salario": 100.0,
+    		"dataContratacao": "2023-11-27",
+    		"cargo": {
+    			"id": "648b79fe-fe3c-499e-a17a-55a25e09a49e"
+    		}
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107580
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

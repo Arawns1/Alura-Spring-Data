@@ -1,0 +1,23 @@
+_id: req_c2e11df6fcfb47028add040602f2cd7c
+type: Request
+parentId: fld_d9c3c2621df34c6ca82e5f05242b9e60
+modified: 1701094577384
+created: 1701094560509
+url: "{{ _.baseUrl }}/unidades"
+name: Listar unidades
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107755
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_b0c0c8d7cae24d80b26b3578dddc8735
+type: Request
+parentId: fld_d9c3c2621df34c6ca82e5f05242b9e60
+modified: 1701094597288
+created: 1701094560518
+url: "{{ _.baseUrl }}/unidades/fe33d395-a0c4-4759-921e-112f471b574d"
+name: Deletar unidades
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107567.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_49d7631445b541a5b786a2f122329dfc
+type: Request
+parentId: fld_bb49bd0a0d3743cf87cfd48d9240d843
+modified: 1701107642399
+created: 1701105775802
+url: "{{ _.baseUrl }}/funcionarios/projecao"
+name: Lista Projeção
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701105775802
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

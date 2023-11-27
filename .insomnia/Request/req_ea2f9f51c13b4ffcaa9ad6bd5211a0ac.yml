@@ -1,0 +1,34 @@
+_id: req_ea2f9f51c13b4ffcaa9ad6bd5211a0ac
+type: Request
+parentId: fld_bb49bd0a0d3743cf87cfd48d9240d843
+modified: 1701099556528
+created: 1701088893843
+url: "{{ _.baseUrl }}/funcionarios"
+name: Salvar Funcionario
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"nome": "ana",
+    	"CPF": "123456789",
+    	"salario": 100.00,
+    	"dataContratacao": "2023-11-27",
+    	"cargoId": "21ceda07-c16a-4581-86fb-84e0739fe9d3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1701093107605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
